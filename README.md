@@ -1,7 +1,7 @@
 # EAnimator
 
 EAnimator[![](https://jitpack.io/v/RickyHal/EAnimator.svg)](https://jitpack.io/#RickyHal/EAnimator) ![](https://img.shields.io/badge/language-kotlin-brightgreen.svg)
-是一个使用kotlin开发的动画框架，适用于复杂情况下的动画实现，让您在实现App中的动画时如写作文一般清爽。[Blog](https://juejin.cn/post/7027114415228977165/)
+是一个使用kotlin开发的动画框架，适用于复杂情况下的动画实现，让您在实现App中的动画时如写作文一般清爽。[Blog](https://juejin.cn/post/7042303106285043719/)
 。<a href="https://github.com/RickyHal/EAnimator/tree/main/results/apk">Demo下载</a>
 
 
