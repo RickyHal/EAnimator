@@ -13,7 +13,7 @@ EAnimator[![](https://jitpack.io/v/RickyHal/EAnimator.svg)](https://jitpack.io/#
 
 - 效果预览
 
-<img src="/results/img1.png" width=260/>
+<img src="/results/img1.gif" width=260/>
 
 - 目前支持
 - [x] 基础动画
