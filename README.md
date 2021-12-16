@@ -1,7 +1,3 @@
----
-highlight: an-old-hope theme: channing-cyan
----
-
 # EAnimator
 
 EAnimator[![](https://jitpack.io/v/RickyHal/EAnimator.svg)](https://jitpack.io/#RickyHal/EAnimator)
