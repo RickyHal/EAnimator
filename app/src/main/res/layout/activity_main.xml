@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/animate_view1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/white" />
+
+    <View
+        android:id="@+id/animate_view2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/teal_200" />
+
+    <TextView
+        android:id="@+id/animate_view3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EAnimator Demo"
+        android:textSize="30sp"
+        android:lineHeight="50dp"
+        android:gravity="center"
+        android:textColor="@color/white" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_multi_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="multi_view" />
+
+            <Button
+                android:id="@+id/btn_multi_view_and_animation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="multi_view_and_animation" />
+
+            <Button
+                android:id="@+id/btn_multi_animation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="multi_animation" />
+
+            <Button
+                android:id="@+id/btn_scale_x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ScaleX" />
+
+            <Button
+                android:id="@+id/btn_scale_y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ScaleY" />
+
+            <Button
+                android:id="@+id/btn_scale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scale" />
+
+            <Button
+                android:id="@+id/btn_alpha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alpha" />
+
+            <Button
+                android:id="@+id/btn_background_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BackgroundColor" />
+
+            <Button
+                android:id="@+id/btn_text_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextColor" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn_translation_x"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:text="TranslationX" />
+
+                <Button
+                    android:id="@+id/btn_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="Cancel" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_translation_y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TranslationY" />
+
+            <Button
+                android:id="@+id/btn_translation_z"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TranslationZ" />
+
+            <Button
+                android:id="@+id/btn_rotation_x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RotaionX" />
+
+            <Button
+                android:id="@+id/btn_rotation_y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RotaionY" />
+
+            <Button
+                android:id="@+id/btn_rotation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rotation" />
+
+            <Button
+                android:id="@+id/btn_width"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Width" />
+
+            <Button
+                android:id="@+id/btn_height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Height" />
+
+            <Button
+                android:id="@+id/btn_margin_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MarginLeft" />
+
+            <Button
+                android:id="@+id/btn_margin_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MarginTop" />
+
+            <Button
+                android:id="@+id/btn_margin_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MarginRight" />
+
+            <Button
+                android:id="@+id/btn_margin_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MarginBottom" />
+
+            <Button
+                android:id="@+id/btn_path"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Path" />
+
+            <Button
+                android:id="@+id/btn_custom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Custom" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
