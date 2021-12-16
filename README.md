@@ -9,7 +9,7 @@ EAnimator[![](https://jitpack.io/v/RickyHal/EAnimator.svg)](https://jitpack.io/#
 。<a href="https://github.com/RickyHal/EAnimator/tree/main/results/apk">Demo下载</a>
 
 
-<img src="/results/img2.png"/>
+<img src="/results/img2.png" width=500/>
 
 - 效果预览
 
